@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    background-color: #495e57;
+    padding: 0 15%;
+    height: 400px;
+  }
+  
+  .left-side,
+  .right-side {
+    width: 50%;
+  }
+  
+  .left-side {
+    color: white;
+  }
+  
+  header h1 {
+    margin-top: 2rem;
+    color: #f4ce14;
+    line-height: 60px;
+  }
+  
+  header p {
+    margin: 2rem 0;
+    max-width: 400px;
+  }
+  
+  header img {
+    transform: translateY(10%);
+    float: right;
+    border-radius: 1.5rem;
+    width: 400px;
+    aspect-ratio: 5 / 6;
+    object-fit: cover;
+  }

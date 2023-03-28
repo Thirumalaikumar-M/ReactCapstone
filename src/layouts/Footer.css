@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 15%;
+    margin-top: auto;
+    background-color: #495e57;
+  }
+  
+  footer ul,
+  footer nav {
+    flex-direction: column;
+    gap: 0;
+    justify-content: flex-start;
+    padding: 0;
+    color: #fff;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer img {
+    border-radius: 10px;
+  }
